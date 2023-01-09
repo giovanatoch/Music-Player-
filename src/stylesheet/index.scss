@@ -1,0 +1,38 @@
+body {
+  background: #0F0D13;
+}
+
+.container {
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .first-column {
+    width: 267px;
+    height: 498px;
+    background-color: #2A2141;
+    border-radius: 10px;
+  }
+
+  .second-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+
+    .medium-layout {
+      width: 358px;
+      height: 267px;
+      background-color: #2A2141;
+      border-radius: 10px;
+    }
+
+    .small-layout {
+      width: 358px;
+      height: 199px;
+      background-color: #2A2141;
+      border-radius: 10px;
+      margin-top: auto;
+    }
+  }
+}
